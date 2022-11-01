@@ -110,8 +110,8 @@ analytics:
 author:
   name             : "Jiae Kim"
   avatar           : "/assets/images/me.jpg"
-  bio              : "배우고 기록하기✏️"
-  location         : "Somewhere"
+  bio              : "배우고 기록하기"
+  location         : "Seoul"
   email            :
   links:
     - label: "Email"
