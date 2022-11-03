@@ -2,11 +2,11 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "About"
-     url: https://jiaezzang.github.io/jiaezzang/about/
-   - title: "Category"
-  #   url: /year-archive/
-   - title: "Posts"
-     url: /_posts
+   - title: "React"
+     url: /eact/
+   - title: "React Native"
+     url: /react-native/
+  # - title: "Posts"
+  #   url: /_posts
   # - title: "Sitemap"
   #   url: /sitemap/
