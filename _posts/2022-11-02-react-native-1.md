@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "[React Native] 1. 리액트 네이티브란 무엇인가?"
+categories:
+  - React Native
 
 ---
 
