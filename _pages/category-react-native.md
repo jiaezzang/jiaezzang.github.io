@@ -1,7 +1,7 @@
 ---
 title: "React Native"
 layout: archive
-permalink: /react-native
+permalink: /react-native/
 ---
 
 
