@@ -2,14 +2,14 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "Posts"
+     url: /_posts
+  # - title: "Sitemap"
+  #   url: /sitemap/
+docs:
    - title: "React"
      url: /react/
      category: "react"
    - title: "React Native"
      url: /react-native/
      category: "react-native"
-  # - title: "Posts"
-  #   url: /_posts
-  # - title: "Sitemap"
-  #   url: /sitemap/
-
