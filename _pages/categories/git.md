@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: categories/react-native
-title: "React Native"
+permalink: categories/git
+title: "GIT"
 
 author_profile: true
 sidebar_main: true
@@ -9,7 +9,7 @@ sidebar:
   nav: "docs"
 ---
 
-{% assign posts = site.categories.Rn %}
+{% assign posts = site.categories.Git %}
 {% for post in posts %}
 {% include custom-archive-single.html type=entries_layout %}
 {% endfor %}
