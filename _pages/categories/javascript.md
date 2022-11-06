@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: categories/Ruby
-title: "Ruby"
+permalink: categories/javascript
+title: "JavaScript"
 
 author_profile: true
 sidebar_main: true
@@ -9,7 +9,7 @@ sidebar:
   nav: "docs"
 ---
 
-{% assign posts = site.categories.Ruby %}
+{% assign posts = site.categories.Js %}
 {% for post in posts %}
 {% include custom-archive-single.html type=entries_layout %}
 {% endfor %}

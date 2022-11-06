@@ -11,6 +11,13 @@
         <span class="nav__sub-title">🖥️PROGRAMMING</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Js" %}
+                        <li><a href="/categories/javascript" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "React" %}
                         <li><a href="/categories/react" class="">React ({{category[1].size}})</a></li>
                     {% endif %}
@@ -28,13 +35,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Git" %}
                         <li><a href="/categories/git" class="">GIT ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Ruby" %}
-                        <li><a href="/categories/ruby" class="">Ruby ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
