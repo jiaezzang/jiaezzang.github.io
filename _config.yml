@@ -10,9 +10,9 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "custom" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # dark_theme_toggle        : true
 # after_footer_scripts:
@@ -46,7 +46,7 @@ comments:
   #   num_posts            : # 5 (default)
   #   colorscheme          : # "light" (default), "dark"
   utterances:
-    theme: "github-light" # "github-light" (default), "github-dark" "photon-dark"
+    theme: "github-dark" # "github-light" (default), "github-dark" "photon-dark"
     label: "comment🫧"
     issue_term: "pathname" # "pathname" (default)
   giscus:
