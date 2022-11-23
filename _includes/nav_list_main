@@ -8,11 +8,18 @@
             <span >전체 글 수</span> <span>{{sum}}</span> <span>개</span> 
       </li>
       <li>
-        <span class="nav__sub-title">🖥️PROGRAMMING</span>
+        <span class="nav__sub-title">🖥️FRONT-END</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Js" %}
                         <li><a href="/categories/javascript" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Nj" %}
+                        <li><a href="/categories/nodejs" class="">Node.js ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
