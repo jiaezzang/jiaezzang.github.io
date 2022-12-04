@@ -15,7 +15,7 @@ toc_label: "목록"
 toc_icon: "bars"
 toc_sticky: true
 
-date: 2022-11-02
+date: 2022-12-04
 ---
 
 # React Native의 동작 원리
