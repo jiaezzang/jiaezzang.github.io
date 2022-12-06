@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[React Native] 2. React Native 개발 환경 설정"
+title: "[React Native] React Native 개발 환경 설정"
 folder: "react-native"
 categories:
   - Rn

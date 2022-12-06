@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[React Native] 2. 리액트 네이티브 다루기"
+title: "[React Native] 리액트 네이티브 다루기"
 folder: "react-native"
 categories:
   - Rn
