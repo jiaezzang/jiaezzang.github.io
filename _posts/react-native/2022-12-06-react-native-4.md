@@ -38,8 +38,8 @@ React Native에서는 HTML 엘리먼트가 아닌 이와 유사한 컴포넌트�
 
 ```
 <Text>
-  Hello, I'm <Text style={{fontWeight: "bold"}}>JIAEZZANG</Text>
-  <Text style{{fontStyle: "italic"}}>https://jiaezzang.github.io</Text>
+  Hello, I'm <Text style= {fontWeight: "bold"}>JIAEZZANG</Text>
+  <Text style= {fontStyle: "italic"}>https://jiaezzang.github.io</Text>
 </Text>
 ```
 
